@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&family=Roboto+Slab:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Kumbh Sans', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    background-color: var(--background);
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+:root{
+    --background: #1E213E;
+    --darkbg:#161932;
+    --brighttext: white;
+    --dimtext:#D6DFFF;
+    --lightgreen:hsl(182deg 91% 71%);
+    --lavender:hsl(284deg 89% 74%)
 }
-
-.App-link {
-  color: #61dafb;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 630px;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+    margin:50px 0;
+    color:var(--brighttext) ;
+    font-size: 32px;
+}
+.form{
+    display: flex;
+    background-color: var(--darkbg);
+    width: 390px;
+    height: 60px;
+    border-radius: 30px;
+    margin-bottom: 45px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--dimtext);
+}
+button{
+    border: none;
+    padding: 14px;
+    border-radius: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover{
+    color: var(--background);
+background: #F87272;
+font-weight: 600;
 }

@@ -1,0 +1,31 @@
+.theme-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+    border-bottom: 1px solid lightgray;
+    padding: 12px 0px;
+}
+.fonts-container{
+    display: flex;
+    gap: 15px;
+
+}
+.kumbhSans{
+    font-family: "Kumbh sans", sans-serif;
+}
+.robotoSlab{
+    font-family: "Roboto Slab", sans-serif;
+}
+.spaceMono{
+    font-family: "Space Mono", sans-serif;
+}
+.btn-1 {
+background-color: #F87272;;
+}
+.btn-2 {
+    background-color: var(--lightgreen);
+    }
+    .btn-3 {
+        background-color: var(--lavender);
+        }
